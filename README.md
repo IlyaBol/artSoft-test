@@ -23,11 +23,13 @@ gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -D
 gradle clean test
 ```
 
-Генерация отчета Allure:
+## Отчет в Allure
+<img src="image/Screenshot_1.png" height="600" width="1000">
+
+Команда для генерация отчета Allure:
 ```bash
 allure serve build/allure-results
 ```
-
 
 ## Видеотчет теста "Контактная форма"
 <img src="image/Gif.gif" height="600" width="1000">
