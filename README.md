@@ -42,5 +42,5 @@ allure serve build/allure-results
 <img src="image/Telegram.png" height="600" width="1000">
 
 ## Видеотчет теста "Контактная форма"
-<img src="image/Gif.gif" height="600" width="1000">
+<img src="image/Gif.gif" height="800" width="600">
 
