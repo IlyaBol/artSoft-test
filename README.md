@@ -30,6 +30,13 @@ gradle clean test
 ```bash
 allure serve build/allure-results
 ```
+### К каждому тесту прикладываются:
+
+* Скриншоты
+* Исходники страницы
+* Логи браузера
+* Видео
+<img src="image/AT.png" height="600" width="1000">
 
 ## Видеотчет теста "Контактная форма"
 <img src="image/Gif.gif" height="600" width="1000">
