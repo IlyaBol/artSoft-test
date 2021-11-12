@@ -1,6 +1,9 @@
 ## Автотесты для сайта http://testdoc.torgi223.ru/
 <img src="image/ebf1e367df6ea359.png" height="600" width="1000">
 
+## Проект запускается в CI Jenkins
+<img src="image/Screenshot_3.png" height="600" width="1000">
+
 # Для запуска тестов используются следующие команды
 
 ### Запуск тестов, когда файл remote.properties не заполнен:
