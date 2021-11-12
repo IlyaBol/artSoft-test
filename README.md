@@ -7,16 +7,23 @@
 # Для запуска тестов используются следующие команды
 
 ### Запуск тестов, когда файл remote.properties не заполнен:
-
-* browser (default chrome)
-* browserVersion (default 89.0)
-* browserSize (default 1920x1080)
-* remoteDriverUrl (указываем логин, пароль и адрес удаленного сервера, где будут проходить тесты )
-* videoStorage (параметр для сохранения видео)
-* threads (количество потоков)
-```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
+```bash  
+gradle clean test 
+Dbrowser=${BROWSER}
+DbrowserVersion=${BROWSER_VERSION}
+DbrowserSize=${BROWSER_SIZE}
+DremoteDriverUrl=https://user1:1234@${REMOTE_DRIVER_URL}/wd/hub/
+DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
+Dthreads=${THREADS}
 ```
+* в параметре Dbrowser - указываем браузер, в котором будут выполняться тесты
+* в параметре DbrowserVersion - указываем версию браузера
+* в параметре DbrowserSize - указываем размер окна браузера
+* в параметре DbrowserMobileView - указываем мобильное устройство, на котором будут выполняться тесты
+* в параметре DremoteDriverUrl - указываем логин, пароль и адрес удаленного сервера, где будут проходить тесты
+* в параметре DvideoStorage указываем место для сохранения видео
+* в параметре Dthreads задаем количетство потоков
+
 
 Запуск тестов, когда файл remote.properties заполнен:
 ```bash
