@@ -40,5 +40,5 @@ allure serve build/allure-results
 gradle clean demowebshop
 ```
 ## Видеотчет теста "Контактная форма"
-<img src="image/gif.gif" height="600" width="1000">
+<img src="image/gif.gif" height="1000" width="600">
 
