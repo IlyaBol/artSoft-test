@@ -1,9 +1,5 @@
-0# Project in Allure TestOps with manual & automated tests
-<a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
-
-# Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
-
+## Автотесты для сайта 
+<img src="image/ebf1e367df6ea359.png" height="600" width="1000">
 
 # USAGE examples
 
