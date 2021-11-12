@@ -39,6 +39,6 @@ allure serve build/allure-results
 ```bash
 gradle clean demowebshop
 ```
+## Видеотчет теста "Контактная форма"
+<img src="image/gif.gif" height="600" width="1000">
 
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
